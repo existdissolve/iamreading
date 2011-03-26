@@ -31,10 +31,10 @@ var totalpages = 0;
 var totalbooks = 0;
 
 Ext.setup({
-	tabletStartupScreen: ls.colorscheme != "" ? "tablet_" + ls.colorscheme + ".jpg" : 'tablet_pink.jpg',
-    phoneStartupScreen: ls.colorscheme != "" ? "phone_" + ls.colorscheme + ".jpg" : 'phone_pink.jpg',
+	tabletStartupScreen: ls.colorscheme != "" ? "images/tablet/tablet_" + ls.colorscheme + ".jpg" : 'images/tablet/tablet_pink.jpg',
+    phoneStartupScreen: ls.colorscheme != "" ? "images/phone/phone_" + ls.colorscheme + ".jpg" : 'images/phone/phone_pink.jpg',
 	layoutOnOrientationChange:true,
-    icon: ls.colorscheme != "" ? "icon_" + ls.colorscheme + ".png" : 'icon_pink.png',
+    icon: ls.colorscheme != "" ? "images/icon/icon_" + ls.colorscheme + ".png" : 'images/icon/icon_pink.png',
     glossOnIcon: true,
 	onReady: function() {
 		App = new IAR.App();
